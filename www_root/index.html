@@ -69,7 +69,8 @@
 </div>
 </main>
 <footer>
-    © 2026 Jeff Gaydash Studios, LLC — All Images Copyright Jeff Gaydash
-  </footer>
+    © <span id="footer-year"></span> Jeff Gaydash Studios, LLC — All Images Copyright Jeff Gaydash
+  <script>document.getElementById("footer-year").textContent=new Date().getFullYear();</script>
+</footer>
 </body>
 </html>

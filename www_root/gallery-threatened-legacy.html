@@ -55,7 +55,8 @@
 <button class="lightbox-next" id="lb-next">›</button>
 </div>
 <footer>
-  © 2026 Jeff Gaydash Studios, LLC — All Images Copyright Jeff Gaydash
+  © <span id="footer-year"></span> Jeff Gaydash Studios, LLC — All Images Copyright Jeff Gaydash
+<script>document.getElementById("footer-year").textContent=new Date().getFullYear();</script>
 </footer>
 <script src="lightbox.js"></script>
 </body>
